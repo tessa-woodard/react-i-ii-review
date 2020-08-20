@@ -4,13 +4,23 @@ Answer these on your own, then compare answers as a group
 
 1.  What are props?
 
+they are data passed down from a parent component to a child component 
+
 2.  How do you pass props from a parent to a child?
+
+if I have access to data in my parent component that I need my child component to have access to, I can pass it as a prop to the child when I represent it within the parent
 
 3.  How do you access props from a class-based child component?
 
+'this' in a class component is the component itself {this.props.myName}
+
 4.  How do you access props from a functional component?
 
+it accepts a single 'prop' object argument with data & returns a React element 
+
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+
+this.function.bind(this)
 
 ### Understand
 
@@ -52,6 +62,8 @@ class Queue extends Component {
   }
 }
 ```
+
+it makes them key value pairs in the questions array
 
 ### Apply
 

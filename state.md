@@ -4,9 +4,15 @@ Answer these on your own, then compare answers as a group
 
 1.  What is state?
 
+a component needs state when some data associated with it changes over time, state is unchangable
+
 2.  Where do you set initial state?
 
+initial state goes into the Constructor function
+
 3.  What method do you use to update state?
+
+this.setState which goes into eventHandler
 
 ### Understand
 
@@ -41,11 +47,14 @@ class LeadMentor extends Component {
 }
 ```
 
+when they click questionsAnswered it increases by 1
+
 ### Apply
 
 Try these on your own, but work together if you start to get stuck.
 
 5.  Create a `Student` component that keeps track of the number of questions the student has asked, with a button that adds 1 to the total when it's clicked
+
 
 6.  Now add a text input where the student can type in their questions with a button to add them to a list of questions that is displayed below the number of questions asked.
 
